@@ -1,0 +1,13 @@
+HowTo
+
+To compile CSharp on a Mac, I've been using Mono.
+mcs <filename>.cs
+This generates
+filename.exe
+
+To run the unit tests using NUnit is simple; NUnit ships with Mono.
+Simply compile with an additional option:
+mcs <filename>.cs -reference:nunit.framework.dll
+
+To compile multiple files,
+mcs /out:<filename> *.cs

@@ -1,1 +1,5 @@
+#Ignore any executables that I might compile
 *.exe
+
+#Ignore the various .dlls that the NUnit tests create
+*/Output/
