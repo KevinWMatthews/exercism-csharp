@@ -1,12 +1,3 @@
-// Only need to provide a main to
-class LeapTestMain
-{
-    public static void Main()
-    {
-        return;
-    }
-}
-
 namespace YearNamespace
 {
     // Static classes do not need to be instantiated
