@@ -22,7 +22,6 @@ public class LeapTest
         Assert.That(Year.IsLeap(1900), Is.False);
     }
 
-    [Ignore]
     [Test]
     public void Turn_of_the_25th_century_is_a_leap_year()
     {
