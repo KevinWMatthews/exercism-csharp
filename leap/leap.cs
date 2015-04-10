@@ -14,7 +14,10 @@ namespace YearNamespace
     {
         public static bool IsLeap(int year)
         {
-            return true;
+            if (year % 4 == 0)
+                return true;
+            else
+                return false;
         }
     }
 }

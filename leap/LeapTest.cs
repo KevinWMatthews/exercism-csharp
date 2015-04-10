@@ -10,7 +10,6 @@ public class LeapTest
         Assert.That(Year.IsLeap(1996), Is.True);
     }
 
-    [Ignore]
     [Test]
     public void Invalid_leap_year()
     {
