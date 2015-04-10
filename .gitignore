@@ -3,3 +3,6 @@
 
 #Ignore the various .dlls that the NUnit tests create
 */Output/
+
+#Ignore test results
+*.xml
